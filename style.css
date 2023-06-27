@@ -48,6 +48,10 @@ button {
     flex: 1;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .logo {
     margin-bottom: 16px;
     flex: 0 0 200px;
@@ -150,4 +154,54 @@ button {
     color: #1f2937;
 }
 
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;    
+}
 
+.card {
+    padding: 18px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    flex: 0 1 900px;
+}
+
+.card-content {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-header {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.card-button {
+    border-color: #f9faf8;
+    align-self: center;
+    flex: 0 0 auto;
+    max-height: 36px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
